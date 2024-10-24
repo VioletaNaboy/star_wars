@@ -1,6 +1,5 @@
 import React, { createContext, useState, useContext } from 'react';
 import { Character, CharacterWithFilms } from '../api/characterApi';
-import { FilmWithStarships } from '../api/filmApi';
 
 interface StarWarsContextProps {
     characters: Character[];

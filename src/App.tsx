@@ -2,7 +2,7 @@
 import React from 'react';
 import { StarWarsProvider } from './context/StarWarsContext';
 import CharacterList from './components/CharacterList';
-import SelectedCharacterDetails from './components/SelectedCharacterDetails';
+import SelectedCharacterDetails from './components/flow/SelectedCharacterDetails';
 
 const App: React.FC = () => {
 

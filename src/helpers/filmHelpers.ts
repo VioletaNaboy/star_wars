@@ -5,7 +5,7 @@ export const fetchFilmsByCharacter = async (filmIds: number[]): Promise<Film[]> 
     try {
         const filmPromises = await filmIds.map((filmId) => fetchFilmById(filmId));
         const films = await Promise.all(filmPromises);
-        console.log(films)
+
         return films
     } catch (error) {
         console.error('Error fetching films:', error);
